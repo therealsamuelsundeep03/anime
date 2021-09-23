@@ -1,0 +1,95 @@
+body{
+    background-color: #212121;
+    color: #f1f1f1;
+  }
+  header{
+    background-color: black;
+    height: 230px;
+    width: 2640px;
+    position: fixed;
+    top:-10px;
+    z-index: 1;
+  }
+  .title{
+    margin-left: 660px;
+    margin-top: 70px;
+  }
+  header .menu{
+    position: absolute;
+    top: 46px;
+    left: 50px;
+  }
+  .menu:hover{
+    cursor: pointer;
+  }
+  .drop{
+    height: 500px;
+    position: absolute;
+  }
+  .topanime{
+    display: none;
+    background-color: black;
+    width: 305px;
+    height: 120%;
+    position: relative;
+  }
+  .drop:hover .topanime{
+    display: block;
+    margin-top: 102px;
+  }
+  .topanime a{
+    display: block;
+    padding: 20px 50px;
+    font-size: 17px;
+    background-color: black;
+  }
+  .topanime a:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+  }
+  .form-control{
+    border-radius: 5px;
+  }
+  .form-group{
+    position: absolute;
+    left: 1170px;
+    bottom: 20px;
+ }
+ .container{
+  margin-top: 200px;
+ }
+ .posters{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap; 
+   margin-top: 10px; 
+ }
+ .col-md-2{
+   margin-right: 20px;
+ }
+ .genre{
+   margin-top: 50px;
+ }
+ .card-img-top{
+   height: 230px;
+   width: 190px;
+   border-radius: 8px;
+   object-fit: cover;
+   object-position: center center;
+   transition: 400ms;
+ }
+ .card-img-top:hover{
+   transform: scale(1.06);
+   opacity: 0.5;      
+ }
+ .animenam{
+   text-transform: capitalize;
+   position: absolute;
+   top:250px;
+ }
+ .col-md-3{
+   width: 190px;
+   margin-top: 100px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+ }
